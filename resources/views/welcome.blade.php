@@ -63,10 +63,10 @@
     <section id="hero">
         <duv class="container">
             <div class="content-center">
-                <h1 class="mt-5">Website Design and Development</h1>
+                <h1 class="mt-5">Diseño y desarrollo de sitios web</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
                     aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
-                <a href="#" class="btn btn-secondary mt-4">Explore now <img src="assets/images/arrow-right.svg" class="ml-2"></a>
+                <a href="#" class="btn btn-secondary mt-4">Contactanos <img src="assets/images/arrow-right.svg" class="ml-2"></a>
             </div>
         </duv>
     </section>
@@ -108,76 +108,175 @@
     <section id="portfolio">
         <div class="container-fluid">
             <div class="content-center">
-                <h2>We work with exciting brands to build <b>amazing products.</b></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
+                <h2> <b>Trabajamos con marcas emocionantes.</b></h2>
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
                     aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
-                    nesciunt error ut quidem autem.</p>
+                    nesciunt error ut quidem autem.</p>-->
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-2">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                           <!-- <a href="#">
                                 <h2>Keep Calm and Eat</h2>
                             </a>
                             <a href="#">
                                 <p>— App/Digital Product</p>
-                            </a>
+                            </a>-->
                         </div>
-                        <img src="assets/images/portfolio-01.jpg" class="img-fluid" alt="Portfolio 01">
+                        <img src="{{ asset  ('/assets/images/p1.png ') }} " class="img-fluid" alt="Portfolio 01">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-2">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
-                                <h2>New Horizons</h2>
+                            <!-- <a href="#">
+                                <h2>Keep Calm and Eat</h2>
                             </a>
                             <a href="#">
                                 <p>— App/Digital Product</p>
-                            </a>
+                            </a>-->
                         </div>
-                        <img src="assets/images/portfolio-02.jpg" class="img-fluid" alt="Portfolio 02">
+                        <img src="{{ asset  ('/assets/images/p2.png ') }} " class="img-fluid" alt="Portfolio 02">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-2">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                           <!-- <a href="#">
                                 <h2>Urban Oasis</h2>
                             </a>
                             <a href="#">
                                 <p>— App/Digital Product</p>
-                            </a>
+                            </a>-->
                         </div>
-                        <img src="assets/images/portfolio-03.jpg" class="img-fluid" alt="Portfolio 03">
+                        <img src="{{ asset  ('/assets/images/p3.png ') }} " class="img-fluid" alt="Portfolio 03">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-2">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                            <!--<a href="#">
                                 <h2>No Speed Limits</h2>
                             </a>
                             <a href="#">
                                 <p>— App/Digital Product</p>
-                            </a>
+                            </a>-->
                         </div>
-                        <img src="assets/images/portfolio-04.jpg" class="img-fluid" alt="Portfolio 04">
+                        <img src="{{ asset  ('/assets/images/p4.png ') }} " class="img-fluid" alt="Portfolio 04">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <!--<a href="#">
+                                <h2>No Speed Limits</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>-->
+                        </div>
+                        <img src="{{ asset  ('/assets/images/p5.png ') }} " class="img-fluid" alt="Portfolio 05">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                           <!-- <a href="#">
+                                <h2>No Speed Limits</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>-->
+                        </div>
+                        <img src="{{ asset  ('/assets/images/p6.png ') }} " class="img-fluid" alt="Portfolio 06">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <!-- <a href="#">
+                                <h2>No Speed Limits</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>-->
+                        </div>
+                        <img src="{{ asset  ('/assets/images/p7.png ') }} " class="img-fluid" alt="Portfolio 07">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <!-- <a href="#">
+                                <h2>No Speed Limits</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>-->
+                        </div>
+                        <img src="{{ asset  ('/assets/images/p8.png ') }} " class="img-fluid" alt="Portfolio 08">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <!-- <a href="#">
+                                <h2>No Speed Limits</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>-->
+                        </div>
+                        <img src="{{ asset  ('/assets/images/p9.svg ') }} " class="img-fluid" alt="Portfolio 09">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <!-- <a href="#">
+                                <h2>No Speed Limits</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>-->
+                        </div>
+                        <img src="{{ asset  ('/assets/images/p10.png ') }} " class="img-fluid" alt="Portfolio 10">
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-4">
+           <!-- <div class="text-center mt-4">
                 <p class="">Ready to accelerate your project?</p>
                 <a href="#" class="text-dark"><b>Just let us know.</b></a>
+            </div>-->
+        </div>
+    </section>
+    <section id="marcas">
+    <div class="container-fluid">
+        <div class="content-center">
+           <h2> <b>Trabajamos con marcas emocionantes.</b></h2>
+            <div class="col-md-2">
+                <div class="portfolio-container">
+                <div class="portfolio-details">
+                    <!-- <a href="#">
+                    <h2>No Speed Limits</h2>
+                   </a>
+                  <a href="#">
+                  <p>— App/Digital Product</p>
+                   </a>-->
+                </div>
+                <img src="{{ asset  ('/assets/images/p10.png ') }} " class="img-fluid" alt="Portfolio 10">
+                </div>
             </div>
         </div>
+    </div>
+
     </section>
 
     <section id="team" class="bgLightGrey">
         <div class="container">
             <div class="content-center">
-                <h2>Keep calm, you're in a <b>good company</b></h2>
+                <h2>Mantén la calma, <b>estás en buena compañía.</b></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
                     aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
                     nesciunt error ut quidem autem.</p>
@@ -241,7 +340,7 @@
     <section id="pricing" class="divider">
         <div class="container">
             <div class="content-center">
-                <h2>Pricing built for <b>every business</b></h2>
+                <h2>Precios creados para <b>cada negocio</b></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
                     aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
                     nesciunt error ut quidem autem.</p>
